@@ -57,6 +57,9 @@ namespace Aplicatie_Prezentare
             MessageBox.Show(textAfisat, "Uite cum sta treaba", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
             // Facem alte smecherii Hehe :)
+            txtPrenume.Clear();
+            txtNume.Clear();
+            txtNume.Focus();
         }
 
 
