@@ -50,8 +50,13 @@ namespace Aplicatie_Prezentare
         // Eveniment pentru btnCiocCioc
         private void btnCiocCioc_Click(object sender, EventArgs e)
         {
+            // Definim un string
             string textAfisat = "Utilizatorul " + txtNume.Text + " " + txtPrenume.Text + " a ramas fara idei...";
+
+            // Afisam un mesaj de tipu' "Dear Rich Bastard"...
             MessageBox.Show(textAfisat, "Uite cum sta treaba", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            // Facem alte smecherii Hehe :)
         }
 
 
