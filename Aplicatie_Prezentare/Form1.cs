@@ -58,7 +58,6 @@ namespace Aplicatie_Prezentare
         // Eveniment pentru btnIesire
         private void btnIesire_Click(object sender, EventArgs e)
         {
-            // Inchidem formularul
             Close();
         }
     }
